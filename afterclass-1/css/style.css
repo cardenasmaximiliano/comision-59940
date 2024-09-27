@@ -1,0 +1,22 @@
+
+
+
+
+.section-datos{
+    background-color: lightgray;
+    width: 400px;
+    display: flex;
+}
+
+.section-datos div{
+    text-align: center;
+}
+
+.section-datos div p{
+    font-size: 40px;
+}
+
+.galeria-informacion{
+    background-color: lightgray;
+  
+}
