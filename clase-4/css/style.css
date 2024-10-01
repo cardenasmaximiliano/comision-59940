@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+ font-family: "Afacad Flux", sans-serif;
+
+  font-family: "Poppins", system-ui;
+
+*/
+
+@font-face {
+    font-family: fuenteMaxi ;
+    src: url("../assets/tipografias/Soda-Cream.otf");
+}
+
+/* h1{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: ;
+} */
+/*
+tamaño por defecto en los navegadores equivale a 16px, son parte medidas absolutas.
+
+
+medidas => absolutas y medidas relativas.
+
+medidas relativas => son medidas que se van a adaptar al tamaño de pantalla donde se despliegue(nos van a 
+ayudar a nuestro responsive)
+
+% => porcentaje, trabaja siempre automaticamente en base al tamaño de pantalla.
+
+
+vh => viewHeight => el alto de pantalla.
+    queremos definir alturas en el tamaño de ventana
+    queremos que nuestro sitio se vea en pantalla completa.
+vw => viewWidth => el ancho de la pantalla.
+    cuando queremos establecer anchos de ventana. (tenemos el 100%)
+
+rem => toma como base la fuente raiz del documento que es html donde 1rem = 16px
+
+
+
+em => es tomar de base al contenedor
+
+
+medidas absolutas => son medidas que no van a modificarse o adaptarse en cuanto a la pantalla donde se abra el sitio.
+
+px => pixel 
+
+
+
+
+*/
+
+/* html{ /*equivale a 1 rem*/
+
+
+    /*
+     16 px => 100% => 1rem
+     10 px => 62.5% => 1rem => 10px
+
+
+
+
+/* } 
+body{
+    background-color: lavenderblush;
+    height: 100vh;
+}
+
+.section-principal{
+    /*propiedaes que se utilizan para los contenedores
+    width => se va a usar para el ancho del contenedor.
+    height => se va a usar para el largo del contenedor.
+    
+    
+
+    font-size: 1.25rem;
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
+}
+
+h1{
+    font-size: 2em;
+}
+ */
+/* 
+ body{
+    background-image: url("../assets/img/imagen.avif");
+ } */
+
+.section-principal{
+    width: 100%;
+    
+
+    background-image: url("../assets/img/background.png");
+
+    height: 31.25rem;
+    background-color: rgba(173, 216, 230, 0.47);
+    
+    background-position: 500px 0px; /*posiciona el fondo de contenedor en sentido vertical y horizontal*/
+    background-repeat: no-repeat; /*que no se repita o se repita la imagen*/
+    background-size: 500px; /* cuanto va a ocupar la imagen dentro del contenedor**/
+
+}
+/*
+box-modeling
+
+*/
+
+.section-principal button{
+ 
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; */
+    /* padding: 10px 5px 20px 0px; */
+ /* padding: 20px 30px;  */
+
+    /*
+    border => nos permite delimitar nuestro elemento
+    
+    border-width: es el tamaño que queremos que tenga el borde
+    border-style: como queremos que se vea el border
+    border-color: que nos dice que colore queremos que tenga el border
+    */
+    all: unset; /*elimina todos las propiedades que tenga el elemento
+    por defecto*/
+    padding: 10px 20px;
+    background-color: white;
+    /* border: .0313rem solid black; */
+    margin: 0px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.523);
+     display: block; 
+}
+
+/*
+    segun html => etiquetas de apertura y cierre / nulas o vacias
+
+    segun css => existen etiquetas que son de bloque / etiquetas de linea
+
+    etiquetas que ocupan el 100% => etiquetas de bloque
+
+    etiquetas que ocupan el espacio de su contenido => etiquetas en inline
+
+*/
